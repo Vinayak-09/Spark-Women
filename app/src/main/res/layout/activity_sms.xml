@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SmsActivity">
+
+
+    <View
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/top_left_corner_oval"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Send SOS in\nEmergency"
+        android:textSize="35sp"
+        android:layout_above="@id/li"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"/>
+
+
+    <LinearLayout
+        android:id="@+id/li"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start SMS Alerts"
+            android:id="@+id/startService"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop SMS Alerts"
+            android:id="@+id/stopService"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
