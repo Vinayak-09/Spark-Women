@@ -5,7 +5,7 @@
 Women Safety App is user friendly application built in Android Studio,
 it is simple to implement,easy to understand.
 
-Price 2500 Rupees Only!
+Price 1500 Rupees Only!
 
 Report available 500 Rupees!
 
